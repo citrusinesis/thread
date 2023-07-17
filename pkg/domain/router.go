@@ -31,7 +31,7 @@ func NewRouter(entity *entity.Group) (router *Router) {
 
 func (r *Router) RegisterRoute(app *fiber.App) {
 	app.Get("/", func(ctx *fiber.Ctx) error {
-		return ctx.SendString("API By Thread🪡, Powered by Fiber🚀; Wired🛜")
+		return ctx.SendString("API By Thread🪡, Powered by Fiber🚀; Wire🧵")
 	})
 
 	for _, group := range r.groups {
